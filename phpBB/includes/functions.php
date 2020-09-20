@@ -2653,7 +2653,7 @@ function _build_hidden_fields($key, $value, $specialchar, $stripslashes)
 *
 * @return string the hidden fields
 */
-function build_hidden_fields($field_ary, $specialchar = false, $stripslashes = false)
+function build_hidden_fields($field_ary, $specialchar = true, $stripslashes = true)
 {
 	$s_hidden_fields = '';
 
